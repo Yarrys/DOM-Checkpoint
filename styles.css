@@ -1,0 +1,25 @@
+/* Ajoutez du style à votre convenance */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heart-btn {
+    cursor: pointer;
+}
+
+.heart-btn.active {
+    color: red;
+}
+.madiv{
+    width: 500px;
+    height: auto;
+}
